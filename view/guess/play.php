@@ -33,7 +33,7 @@ namespace Anax\View;
 <?php endif; ?>
 
 
- <pre>
+ <!-- <pre>
 <?=
 var_dump($game);
-?>
+?> -->
