@@ -13,8 +13,8 @@ $app->router->get("guess/init", function () use ($app) {
     // init the dession for the gamestart.
     //$game = new Supe\Guess\Guess();
 
-    session_name("game");
-    session_start();
+//    session_name("game");
+//    session_start();
 
     //if (!isset($_SESSION["guess"])) {
         $_SESSION["guess"] = new Supe\Guess\Guess();
